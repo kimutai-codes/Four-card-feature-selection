@@ -7,7 +7,8 @@
 }
 
 p{
-    color: hsl(229, 6%, 66%);
+	color: hsl(229, 6%, 66%);
+	margin-top: 0px;
 }
 
 .container{
@@ -17,8 +18,9 @@ p{
 }
 
 .sup{
-	
 	align-self: center;
+	border-top: 3px hsl(180, 62%, 55%) solid;
+	
 }
 
 .middle{
@@ -28,9 +30,17 @@ p{
 	align-self: center;
 }
 
-.calc{
+.team{
+	border-top: 3px hsl(0, 78%, 62%) solid;
+}
 
+.karma{
+	border-top: 3px hsl(34, 97%, 64%) solid;
+}
+
+.calc{
 	align-self: center;
+	border-top: 3px hsl(212, 86%, 64%) solid;
 }
 
 .intro {
@@ -41,6 +51,10 @@ p{
 	font-weight: 200;
 }
 
+.tech{
+	font-weight: 700;
+}
+
 .intro p {
 	color: hsl(229, 6%, 66%);
 }
@@ -49,13 +63,15 @@ p{
 	display: inline-block;
 	width: 300px;
 	padding:0px 20px 20px 20px;
-	border: gray 1px solid;
+	/*border: gray 1px solid;*/
 	border-radius: 6px;
 	margin-bottom: 10px;
+	box-shadow: 3px 3px 10px 0px gray;
+
 }
 
 h3{
-	margin: 0px;
+	margin-top: 0px;
 }
 
 h4 {
